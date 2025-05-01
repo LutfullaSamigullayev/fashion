@@ -1,51 +1,25 @@
-import { ActionsItemsType, MenuItemsType } from "@/types";
+import { MenuItemsType } from "@/types";
 
 export const menuItems: MenuItemsType[] = [
   {
     id: 1,
     link: "#shop",
-    title: "shop",
+    title: "Shop",
   },
   {
     id: 2,
     link: "#news",
-    title: "news",
+    title: "New Arrivals",
   },
   {
     id: 3,
     link: "#sales",
-    title: "sales",
+    title: "Sales",
   },
   {
     id: 4,
     link: "#journel",
-    title: "journel",
+    title: "Journel",
   },
 ];
 
-export const actionItems: ActionsItemsType[] = [
-  {
-    id: 1,
-    link: "#search",
-    svg: "search",
-    title: "Search",
-  },
-  {
-    id: 2,
-    link: "#user",
-    svg: "user",
-    title: "",
-  },
-  {
-    id: 3,
-    link: "#favorites",
-    svg: "herat",
-    title: "",
-  },
-  {
-    id: 4,
-    link: "#cart",
-    svg: "bag",
-    title: "",
-  },
-];

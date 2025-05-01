@@ -8,10 +8,3 @@ export interface MenuItemsType {
     link: string;
     title: string;
 }
-
-export interface ActionsItemsType {
-    id: number;
-    link: string;
-    svg: string;
-    title: string;
-}

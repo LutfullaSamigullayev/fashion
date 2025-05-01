@@ -5,9 +5,9 @@ export const Menu = () => {
     
     return (
         <div>
-            <ul className="flex gap-x-4 tex text-black">
+            <ul className="flex gap-x-4 ">
                 {menuItems.map(item => (
-                    <li key={item.id}><Link href={item.link} className="">{item.title}</Link></li>
+                    <li key={item.id}><Link href={item.link} className="px-5">{item.title}</Link></li>
                 ))}
             </ul>
         </div>
