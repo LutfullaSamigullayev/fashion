@@ -23,20 +23,20 @@ export const menuItems: MenuItemsType[] = [
   },
 ];
 
-export const CollectionTopItems: CollectionItemsType[] = [
+export const collectionTopItems: CollectionItemsType[] = [
   {
     id: 1,
-    bg: "/collection/top_1",
+    bg: "/collection/top_1.jpg",
     title: "New Arrivals"
   },
   {
     id: 2,
-    bg: "/collection/top_2",
+    bg: "/collection/top_2.jpg",
     title: "The Casual Edit"
   },
   {
     id: 3,
-    bg: "/collection/top_3",
+    bg: "/collection/top_3.jpg",
     title: "Best-Sellers"
   },
 ]
