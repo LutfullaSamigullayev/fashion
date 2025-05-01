@@ -1,4 +1,4 @@
-export const CatalogBottom = () => {
+export const CollectionBottom = () => {
     return (
         <div className="container">
             

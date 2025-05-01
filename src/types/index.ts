@@ -8,10 +8,10 @@ export interface MenuItemsType {
   title: string;
 }
 
-export interface CatalogCardType {
+export interface CollectionCardType {
     bg: string;
     title: string;
 }
-export interface CatalogTopItemsType extends CatalogCardType {
+export interface CollectionItemsType extends CollectionCardType {
     id: number;
 }

@@ -1,4 +1,4 @@
-import { MenuItemsType } from "@/types";
+import { CollectionItemsType, MenuItemsType } from "@/types";
 
 export const menuItems: MenuItemsType[] = [
   {
@@ -22,4 +22,22 @@ export const menuItems: MenuItemsType[] = [
     title: "Journel",
   },
 ];
+
+export const CollectionTopItems: CollectionItemsType[] = [
+  {
+    id: 1,
+    bg: "/collection/top_1",
+    title: "New Arrivals"
+  },
+  {
+    id: 2,
+    bg: "/collection/top_2",
+    title: "The Casual Edit"
+  },
+  {
+    id: 3,
+    bg: "/collection/top_3",
+    title: "Best-Sellers"
+  },
+]
 
