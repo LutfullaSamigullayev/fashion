@@ -49,14 +49,14 @@ export const Icons = {
         <path
           d="M6.41667 11.0833C8.994 11.0833 11.0833 8.994 11.0833 6.41667C11.0833 3.83934 8.994 1.75 6.41667 1.75C3.83934 1.75 1.75 3.83934 1.75 6.41667C1.75 8.994 3.83934 11.0833 6.41667 11.0833Z"
           stroke="black"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M12.2504 12.25L9.71289 9.71252"
           stroke="black"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </g>
       <defs>
@@ -101,8 +101,8 @@ export const Icons = {
         <path
           d="M7 11.8125C7 11.8125 1.3125 8.75 1.3125 5.14062C1.3125 4.35741 1.62363 3.60627 2.17745 3.05245C2.73127 2.49863 3.48241 2.1875 4.26562 2.1875C5.50102 2.1875 6.55922 2.8607 7 3.9375C7.44078 2.8607 8.49898 2.1875 9.73438 2.1875C10.5176 2.1875 11.2687 2.49863 11.8225 3.05245C12.3764 3.60627 12.6875 4.35741 12.6875 5.14062C12.6875 8.75 7 11.8125 7 11.8125Z"
           stroke="black"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </g>
       <defs>
@@ -125,14 +125,14 @@ export const Icons = {
         <path
           d="M11.8125 3.9375H2.1875C1.94588 3.9375 1.75 4.13338 1.75 4.375V10.9375C1.75 11.1791 1.94588 11.375 2.1875 11.375H11.8125C12.0541 11.375 12.25 11.1791 12.25 10.9375V4.375C12.25 4.13338 12.0541 3.9375 11.8125 3.9375Z"
           stroke="black"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
         <path
           d="M4.8125 5.25V3.5C4.8125 2.91984 5.04297 2.36344 5.4532 1.9532C5.86344 1.54297 6.41984 1.3125 7 1.3125C7.58016 1.3125 8.13656 1.54297 8.5468 1.9532C8.95703 2.36344 9.1875 2.91984 9.1875 3.5V5.25"
           stroke="black"
-          stroke-linecap="round"
-          stroke-linejoin="round"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
       </g>
       <defs>
