@@ -29,3 +29,14 @@ export interface InstagramItemsType {
   id: number;
   bgUrl: string;
 }
+
+export interface FooterItemsType {
+  id: number;
+  title: string;
+  link: string;
+}
+export interface FooterMenuType {
+  id?: number;
+  title: string;
+  data: FooterItemsType[];
+}
