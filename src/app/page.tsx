@@ -1,4 +1,4 @@
-import { Banner, CollectionTop, NowWear } from "@/components";
+import { Banner, CollectionBottom, CollectionTop, NowWear } from "@/components";
 
 export default function Home() {
   return (
@@ -6,6 +6,7 @@ export default function Home() {
       <Banner />
       <CollectionTop />
       <NowWear />
+      <CollectionBottom />
     </div>
   );
 }

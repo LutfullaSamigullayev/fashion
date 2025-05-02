@@ -12,7 +12,6 @@ export const CollectionTop = () => {
         {collectionTopItems.map((item) => (
           <CollectionCard key={item.id} imgUrl={item.imgUrl} title={item.title} />
         ))}
-        <div className="bg-[url(/collection/top_1.jpg)]"></div>
       </div>
     </div>
   );

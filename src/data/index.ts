@@ -41,6 +41,19 @@ export const collectionTopItems: CollectionItemsType[] = [
   },
 ]
 
+export const collectionBottomItems: CollectionItemsType[] =[
+  {
+    id: 1,
+    imgUrl: "/collection/bottom_1.jpg",
+    title: "The Smart Chik"
+  },
+  {
+    id: 2,
+    imgUrl: "/collection/bottom_2.jpg",
+    title: "Ready To Go"
+  },
+]
+
 export const nowWearItems: NowWearItemsType[] = [
   {
     id: 1,
@@ -73,4 +86,6 @@ export const nowWearItems: NowWearItemsType[] = [
     price: 298,
   },
 ]
+
+
 
