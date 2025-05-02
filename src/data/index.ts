@@ -1,4 +1,4 @@
-import { CollectionItemsType, MenuItemsType } from "@/types";
+import { CollectionItemsType, MenuItemsType, NowWearItemsType } from "@/types";
 
 export const menuItems: MenuItemsType[] = [
   {
@@ -26,18 +26,51 @@ export const menuItems: MenuItemsType[] = [
 export const collectionTopItems: CollectionItemsType[] = [
   {
     id: 1,
-    bg: "/collection/top_1.jpg",
+    imgUrl: "/collection/top_1.jpg",
     title: "New Arrivals"
   },
   {
     id: 2,
-    bg: "/collection/top_2.jpg",
+    imgUrl: "/collection/top_2.jpg",
     title: "The Casual Edit"
   },
   {
     id: 3,
-    bg: "/collection/top_3.jpg",
+    imgUrl: "/collection/top_3.jpg",
     title: "Best-Sellers"
+  },
+]
+
+export const nowWearItems: NowWearItemsType[] = [
+  {
+    id: 1,
+    imgUrl: "/wear/wear_1.jpg",
+    title: "The Casual Edit Casua",
+    price: 298,
+  },
+  {
+    id: 2,
+    imgUrl: "/wear/wear_2.jpg",
+    title: "The Casual Edit Casua",
+    price: 298,
+  },
+  {
+    id: 3,
+    imgUrl: "/wear/wear_3.jpg",
+    title: "The Casual Edit Casua",
+    price: 298,
+  },
+  {
+    id: 4,
+    imgUrl: "/wear/wear_4.jpg",
+    title: "The Casual Edit Casua",
+    price: 298,
+  },
+  {
+    id: 5,
+    imgUrl: "/wear/wear_5.jpg",
+    title: "The Casual Edit Casua",
+    price: 298,
   },
 ]
 

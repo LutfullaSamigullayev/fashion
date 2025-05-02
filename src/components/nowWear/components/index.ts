@@ -1,0 +1,1 @@
+export { WearCard } from "./wearCard"

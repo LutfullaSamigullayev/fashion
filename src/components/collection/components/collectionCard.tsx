@@ -2,11 +2,11 @@ import { CollectionCardType } from "@/types";
 import clsx from "clsx";
 import Image from "next/image";
 
-export const CollectionCard = ({ bg, title }: CollectionCardType) => {
+export const CollectionCard = ({ imgUrl, title }: CollectionCardType) => {
   return (
     <div className={clsx(`relative w-full h-full `)}>
       <Image
-        src={bg}
+        src={imgUrl}
         alt="collection"
         width={432}
         height={532}

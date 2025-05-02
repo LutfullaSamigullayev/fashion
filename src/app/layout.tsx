@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "CEIN Shop",
-  description: "CEIN Online Shopping",
+  title: "CEIN Fashion Shop",
+  description: "CEIN Online Fashion Shopping",
 };
 
 export default function RootLayout({

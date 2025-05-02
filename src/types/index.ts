@@ -9,9 +9,18 @@ export interface MenuItemsType {
 }
 
 export interface CollectionCardType {
-    bg: string;
+    imgUrl: string;
     title: string;
 }
 export interface CollectionItemsType extends CollectionCardType {
     id: number;
+}
+
+export interface WearCardType {
+  imgUrl: string;
+  title: string;
+  price: number;
+}
+export interface NowWearItemsType extends WearCardType {
+  id: number;
 }
