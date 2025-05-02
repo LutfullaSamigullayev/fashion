@@ -24,3 +24,8 @@ export interface WearCardType {
 export interface NowWearItemsType extends WearCardType {
   id: number;
 }
+
+export interface InstagramItemsType {
+  id: number;
+  bgUrl: string;
+}

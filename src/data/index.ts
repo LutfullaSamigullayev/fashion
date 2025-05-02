@@ -1,4 +1,4 @@
-import { CollectionItemsType, MenuItemsType, NowWearItemsType } from "@/types";
+import { CollectionItemsType, InstagramItemsType, MenuItemsType, NowWearItemsType } from "@/types";
 
 export const menuItems: MenuItemsType[] = [
   {
@@ -84,6 +84,29 @@ export const nowWearItems: NowWearItemsType[] = [
     imgUrl: "/wear/wear_5.jpg",
     title: "The Casual Edit Casua",
     price: 298,
+  },
+]
+
+export const instagramItems: InstagramItemsType[] = [
+  {
+    id: 1,
+    bgUrl: "/instagram/instagram_1.jpg"
+  },
+  {
+    id: 2,
+    bgUrl: "/instagram/instagram_2.jpg"
+  },
+  {
+    id: 3,
+    bgUrl: "/instagram/instagram_3.jpg"
+  },
+  {
+    id: 4,
+    bgUrl: "/instagram/instagram_4.jpg"
+  },
+  {
+    id: 5,
+    bgUrl: "/instagram/instagram_5.jpg"
   },
 ]
 

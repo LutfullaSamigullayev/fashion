@@ -3,14 +3,20 @@ import { CollectionCard } from "./components";
 
 export const CollectionTop = () => {
   return (
-    <div className="container_">
-      <div className="px-4 py-8 text-black text-xl">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div className="container_ py-8 flex flex-col gap-y-12">
+      <div className="p-4 text-black text-xl">
+        <p>
+          Elevate your lifestyle with a more intelligent, superior wardrobe.
+        </p>
+        <p>Our range is crafted sustainably with longevity in mind.</p>
       </div>
       <div className="flex gap-x-5 h-[532px]">
         {collectionTopItems.map((item) => (
-          <CollectionCard key={item.id} imgUrl={item.imgUrl} title={item.title} />
+          <CollectionCard
+            key={item.id}
+            imgUrl={item.imgUrl}
+            title={item.title}
+          />
         ))}
       </div>
     </div>
