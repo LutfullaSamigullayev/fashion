@@ -1,5 +1,4 @@
 import { CollectionCardType } from "@/types";
-import clsx from "clsx";
 import Image from "next/image";
 
 export const CollectionCard = ({ imgUrl, title }: CollectionCardType) => {

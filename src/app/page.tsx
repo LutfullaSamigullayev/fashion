@@ -7,8 +7,8 @@ export default function Home() {
       <CollectionTop />
       <NowWear />
       <CollectionBottom />
-      {/* <About />
-      <Instagram /> */}
+      <About />
+      <Instagram />
     </div>
   );
 }

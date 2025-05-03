@@ -5,13 +5,13 @@ export const Footer = () => {
   return (
     <div className="bg-[#F5F4F4] text-black">
       <div className="container_ ">
-        <div className="flex justify-between py-20">
-          <div className="w-[576px] flex gap-x-6 ">
+        <div className="flex flex-col lg:flex-row justify-between py-20 gap-y-12">
+          <div className="md:w-[576px] flex flex-col md:flex-row gap-x-6 ">
             {footerItems.map((item) => (
               <FooterMenu key={item.id} title={item.title} data={item.data} />
             ))}
           </div>
-          <div className="w-[490px] flex flex-col gap-y-6 px-6">
+          <div className="sm:w-[490px] flex flex-col gap-y-6 lg:px-6">
             <h3 className="text-2xl">Get the latest new from us</h3>
             <div>
               <div className="pb-4">
@@ -37,7 +37,7 @@ export const Footer = () => {
             </div>
           </div>
         </div>
-        <p className="text-[#565656] pb-11">&copy;CEIN</p>
+        <p className="text-[#565656] pb-11 text-center">&copy;CEIN</p>
       </div>
     </div>
   );

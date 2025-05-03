@@ -4,7 +4,7 @@ import { CollectionCard } from "./components";
 export const CollectionBottom = () => {
   return (
     <div className="container_ py-8">
-      <div className="flex gap-x-5 h-[719px]">
+      <div className="flex flex-col md:flex-row gap-5 h-[719px]">
         {collectionBottomItems.map((item) => (
           <CollectionCard
             key={item.id}
