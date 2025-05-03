@@ -6,9 +6,9 @@ export default function Home() {
       <Banner />
       <CollectionTop />
       <NowWear />
-      <CollectionBottom />
+      {/* <CollectionBottom />
       <About />
-      <Instagram />
+      <Instagram /> */}
     </div>
   );
 }

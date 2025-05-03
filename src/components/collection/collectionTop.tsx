@@ -10,7 +10,7 @@ export const CollectionTop = () => {
         </p>
         <p>Our range is crafted sustainably with longevity in mind.</p>
       </div>
-      <div className="flex gap-x-5 h-[532px]">
+      <div className="flex flex-col md:flex-row gap-5 h-fit">
         {collectionTopItems.map((item) => (
           <CollectionCard
             key={item.id}

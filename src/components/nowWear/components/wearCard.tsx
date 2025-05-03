@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const WearCard = ({ imgUrl, title, price }: WearCardType) => {
   return (
-    <div className="w-full max-h-[348px] flex flex-col text-black">
+    <div className="w-full max-h-[278px] md:max-h-[348px] flex flex-col text-black">
       <div className="relative w-full h-[280px]">
         <Image
           src={imgUrl}

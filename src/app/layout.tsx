@@ -31,7 +31,7 @@ export default function RootLayout({
         <div className="h-full flex flex-col justify-between">
           <Header />
           <div className=" basis-full">{children}</div>
-          <Footer />
+          {/* <Footer /> */}
         </div>
       </body>
     </html>

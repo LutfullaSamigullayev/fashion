@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export const CollectionCard = ({ imgUrl, title }: CollectionCardType) => {
   return (
-    <div className={clsx(`relative w-full h-full `)}>
+    <div className="relative w-full h-[342px] md:h-[532px]">
       <Image
         src={imgUrl}
         alt="collection"
