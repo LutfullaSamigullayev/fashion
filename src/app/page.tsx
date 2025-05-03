@@ -6,8 +6,8 @@ export default function Home() {
       <Banner />
       <CollectionTop />
       <NowWear />
-      {/* <CollectionBottom />
-      <About />
+      <CollectionBottom />
+      {/* <About />
       <Instagram /> */}
     </div>
   );
