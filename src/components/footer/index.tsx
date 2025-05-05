@@ -37,7 +37,7 @@ export const Footer = () => {
             </div>
           </div>
         </div>
-        <p className="text-[#565656] pb-11 text-center">&copy;CEIN</p>
+        <p className="text-[#565656] pb-11 text-center md:text-left">&copy;CEIN</p>
       </div>
     </div>
   );

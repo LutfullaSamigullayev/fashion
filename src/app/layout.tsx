@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "@/styles/globals.css";
-import { Footer, Header } from "@/components";
+import { Footer, Header, PromotionModal } from "@/components";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,6 +30,7 @@ export default function RootLayout({
       >
         <div className="h-full flex flex-col justify-between">
           <Header />
+          {/* <PromotionModal /> */}
           <div className=" basis-full">{children}</div>
           <Footer />
         </div>

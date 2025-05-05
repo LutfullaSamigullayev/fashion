@@ -1,4 +1,5 @@
 export { Header } from "./header"
+export { PromotionModal } from "./promotion"
 export { Banner } from "./banner"
 export { CollectionTop, CollectionBottom } from "./collection"
 export { NowWear } from "./nowWear"
