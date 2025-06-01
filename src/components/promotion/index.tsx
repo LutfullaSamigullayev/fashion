@@ -15,7 +15,6 @@ export const PromotionModal = () => {
                   placeholder="Enter your email address"
                   className="w-full py-3 px-4 border border-[#D3D4D5]"
                 />
-               
               <button className="w-fit py-3 px-5 bg-black text-white">
                 Unlock Access
               </button>

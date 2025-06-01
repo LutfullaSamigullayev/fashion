@@ -10,23 +10,23 @@ import {
 export const menuItems: MenuItemsType[] = [
   {
     id: 1,
-    link: "#shop",
-    title: "Shop",
+    link: "#women",
+    title: "Women",
   },
   {
     id: 2,
-    link: "#news",
-    title: "New Arrivals",
+    link: "#men",
+    title: "Men",
   },
   {
     id: 3,
-    link: "#sales",
-    title: "Sales",
+    link: "#child",
+    title: "Children",
   },
   {
     id: 4,
-    link: "#journel",
-    title: "Journel",
+    link: "#about",
+    title: "About",
   },
 ];
 
